@@ -1,0 +1,164 @@
+/*Author image*/
+.authorImg {
+	text-align: center;
+	padding-top: 20px;
+}
+
+.authorImg img {
+	border: 1px solid #6B6B6B;
+	padding: 5px;
+}
+
+/*footer*/
+footer a{
+	color: #FF3D00;	
+	padding: 5px;
+}
+
+footer {
+	text-align: center;	
+	background-color: #283649;
+}
+
+footer p {
+	color: white;	
+}
+
+/*email*/
+a[href^="mailto"] {
+	background: url(images/email.png) no-repeat 0 3px;
+	padding-left: 1em;	
+}
+
+/*telephone*/
+a[href^="tel"] {
+	background: url(images/call.png) no-repeat 0 3px;
+	padding-left: 1em;	
+}
+
+/*Body*/
+body {
+	background-color: #ECEFF1;
+	color: #283649;
+}
+
+/*Section*/
+section {
+	background-color: white;
+}
+
+section p, details {
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+/*h3*/
+h3 {
+	background-image: url("images/header-background.png"); 	
+	color: white;
+	padding: 5px;
+}
+
+/*em*/
+em {
+	color: #6B6B6B;	
+}
+
+/*Page title*/
+.pageTitle {
+	text-align: center;	
+	background-image: url("images/header-background.png");
+	margin: 0;
+	padding: 5px;
+	border: 1px solid #6B6B6B;
+	border-bottom: none;
+}
+
+/*Edit and Flag class*/
+.edit{
+	background-color: #FF3D00;
+	color: white;
+	border: 1px solid white;
+	border-radius: 5px;
+	padding: 4px;
+	text-decoration: none;
+	
+}
+
+.edit::before {
+	padding: 2px;
+	content: url("images/edit.png");
+}
+
+.flag {
+	background-color: #FF3D00;
+	color: white;
+	border: 1px solid white;
+	border-radius: 5px;
+	padding: 4px;
+	text-decoration: none;
+	
+}
+
+.flag::before {
+	padding: 2px;
+	content: url("images/flag.png");
+}
+
+.editFlag {
+	background-color: #607D8B;
+}
+
+.editFlag ul {
+	padding: 9px;
+}
+
+/* Title colors*/
+mark.orangeMark {
+	background: none;
+	color: #FF3D00;
+}
+
+mark.whiteMark {
+	background: none;
+	color: white;
+}
+
+/*Nav bar*/
+nav {
+	text-align: center;
+	background-color: #283649;
+	padding: 3px;
+	border: 1px solid #6B6B6B;
+	border-top: none;
+}
+
+li {
+	list-style-type: none;
+	display: inline;
+	padding: 8px;
+	
+}
+
+nav a {
+	color: #FF3D00;
+	margin: 10px;
+}
+
+nav a:hover {
+	color: white;
+	background-color: #FF3D00;
+	border: 1px solid white;
+	border-radius: 5px;
+	padding: 4px;
+	margin: 5px;
+	text-decoration: none;
+}
+
+/*Main*/
+main {
+	width: 900px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
